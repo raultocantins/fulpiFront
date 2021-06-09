@@ -12,7 +12,7 @@ const PdfViewer = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
     return (
         <div className="pdfviewer" >
-            <Viewer fileUrl="https://frontfulpibooks.herokuapp.com/https://pdfsfulpi.s3-sa-east-1.amazonaws.com/pdf.b698684b.pdf"
+            <Viewer fileUrl="https://pdfsfulpi.s3-sa-east-1.amazonaws.com/pdf.b698684b.pdf"
                 plugins={[
                     defaultLayoutPluginInstance,
                 ]}
